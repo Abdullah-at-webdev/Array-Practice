@@ -35,5 +35,4 @@ console.log(typeof(newBookList));
 console.log(Object.keys(newBookList['0']));
 console.log(Object.values(newBookList['1']));
 console.log(typeof(newBookList['0']['Book1']));
-
-newBookList = newBookList.toUppercase();
+console.log(newBookList['0']['Book1'].toUpperCase());
